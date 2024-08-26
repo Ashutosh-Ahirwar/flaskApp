@@ -1,3 +1,4 @@
+![alt text]([http://url/to/img.png](https://github.com/Ashutosh-Ahirwar/flaskApp/blob/main/output.png))
 
 # Flask Application Deployment Guide
 
