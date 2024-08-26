@@ -40,18 +40,17 @@ Upload project to git hub
 - Select web app
 
 - Fill basic details
-
-- Select python in runtime stack
+   -Select python in runtime stack
 
 - In Deployment section enable basic authentication, then review and create
 
-- Now after creation go to overview and download publish profile
+- Now after creation - go to Azure App Services, click on the created service and go to overview and download publish profile
 
 - Go to GitHub project repository, click on Settings > Secrets > Actions > New repository secret.
 
-- Give name to secret which will be required in ci/cd workflow and paste the content of publish profile in value and add secret
+- Give name to secret which will be required in ci/cd workflow YAML file and paste the content of publish profile in value and add secret
 
-- Now In GitHub project repository, create a directory .github/workflows/ and add YAML file containing automation process
+- Now In GitHub project repository, create a directory with structure ".github/workflows/" and add YAML file containing automation process inside it
 
-- On pushing the file github action will trigger CI/CD
+- On pushing the YAML file, github action will trigger CI/CD 
 
