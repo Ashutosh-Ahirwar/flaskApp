@@ -9,7 +9,7 @@ cd flaskApp
 # Install Python packages
 pip install -r requirements.txt
 
-# Start the application
+# Start the application 
 gunicorn --bind 0.0.0.0:8000 app:app
 
 
