@@ -6,7 +6,7 @@ git clone https://github.com/Ashutosh-Ahirwar/flaskApp.git
 # Navigate into the cloned repository directory
 cd flaskApp
 
-# Install Python packages
+# Install Python packages 
 pip install -r requirements.txt
 
 # Start the application 
