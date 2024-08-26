@@ -1,5 +1,5 @@
-![alt text]([http://url/to/img.png](https://github.com/Ashutosh-Ahirwar/flaskApp/blob/main/output.png))
 
+![alt text](https://github.com/Ashutosh-Ahirwar/flaskApp/blob/main/output.png?raw=true)
 # Flask Application Deployment Guide
 
 Prerequisites for testing locally : Python installed
